@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#2196F3"/>
+   <!--Aqui é para arrumar as laterais e deixa-las no formato desejado  -->
+    <corners
+        android:bottomLeftRadius="17dp"
+        android:topRightRadius="17dp"
+        android:topLeftRadius="17dp"
+        android:bottomRightRadius="17dp"/>
+
+    <!-- Aqui é para fazer a borda -->
+    <stroke
+        android:color="#213DF3"
+        android:width="5dp"/>
+
+</shape>

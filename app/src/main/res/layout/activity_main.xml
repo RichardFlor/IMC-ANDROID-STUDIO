@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bmi"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMC"
+        android:textSize="44sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qual seu peso?"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="6dp"
+        android:inputType="number"
+        android:background="@drawable/retangulo"
+        android:padding="18dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qual sua altura?"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/retangulo"
+        android:padding="18dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/retangulo"
+        android:padding="13dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:hint="21"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/circle_shape"
+        android:textColor="#00FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:hint="Peso Ideal"
+        android:textSize="45sp" />
+
+</LinearLayout>
